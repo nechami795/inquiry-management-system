@@ -1,0 +1,12 @@
+package ClientServer;
+
+public enum InquiryManagerActions {
+    ALL_INQUIRY,
+    ADD_INQUIRY,
+    TEST,
+    RETURN_INQUIRY_STATUS,
+    RETURN_INQUIRIES_IN_MONTH,
+    RETURN_REPRESENTATIVE_BY_INQUIRYID,
+    CANCEL_INQUIRY,
+    GET_ALL_REPRESENTATIVES
+}

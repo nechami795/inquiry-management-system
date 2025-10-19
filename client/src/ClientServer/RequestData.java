@@ -1,0 +1,31 @@
+package ClientServer;
+
+import java.io.Serializable;
+
+public class RequestData implements Serializable {
+    private InquiryManagerActions action;
+    private Object[] parameters;
+
+    public RequestData(InquiryManagerActions action, Object... parameters) {
+        this.action = action;
+        this.parameters = parameters;
+
+    }
+
+    public InquiryManagerActions getAction() {
+        return action;
+    }
+
+    public void setAction(InquiryManagerActions action) {
+        this.action = action;
+    }
+
+    public Object[] getParameters() {
+        return parameters;
+    }
+
+    public void setParameters(Object[] parameters) {
+        this.parameters = parameters;
+    }
+
+}
