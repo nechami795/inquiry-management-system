@@ -39,7 +39,7 @@ java-inquiry-management-system/
 
 ### Clone the repository
 ```bash
-git clone https://github.com/chanaFridman/java-inquiry-management-system.git
+git clone https://github.com/nechami795/inquiry-management-system.git
 cd java-inquiry-management-system
 ```
 
